@@ -80,12 +80,19 @@
    - Python 3.x
    - Pygame library (`pip install pygame`)
 
-2. **Run the Game**:
+2. **Ensure Correct Asset Paths**:
+   - Check and edit the paths in the source code (`life_in_space.py`) to correctly point to the `assets/` folder.  
+     Example:
+     ```python
+     astronaut_image = pygame.image.load("assets/images/astronaut.png")
+     ```
+
+3. **Run the Game**:
    ```bash
    python life_in_space.py
    ```
 
-3. **Controls**:
+4. **Controls**:
    Use the keys specified in the **Controls** section to play the game.
 
 ---
@@ -98,7 +105,10 @@
 - Add achievements and leaderboard functionality.
 
 ---
+
 ## Author
 Parth Lathiya
 
-~ Enjoy surviving the challenges of **Life in Space**!
+---
+
+Enjoy surviving the challenges of **Life in Space**!
